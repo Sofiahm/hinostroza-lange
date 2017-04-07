@@ -5,25 +5,25 @@
 
 body{
 	font-family: 'Raleway', sans-serif;
-	font-weight:400;
+	font-weight:600;
 	background:rgba(255,255,255,1);
-	color:rgba(0,0,0,1);
+	color:rgba(255,255,255,1);
 }
 
-h1, h2, h3{text-align:center; font-weight:700;}
+h1, h2, h3{text-align:center; font-weight:900;}
 
 h4, h5, h6{font-weight:700;}
 
-h1{letter-spacing:0.1em; color:rgba(255,255,255,0.75);}
+h1{letter-spacing:0.1em; color:rgba(255,255,255,0.9);}
 
-h2{letter-spacing:0.02em; color:rgba(255,255,255,0.5); padding:0.2em 0; }
+h2{letter-spacing:0.02em; color:rgba(255,204,0,0.8); padding:0.2em 0; }
 
-h3{letter-spacing:0.2em; color:rgba(0,0,0,1); padding:2em 0 0.6em 0; }
+h3{letter-spacing:0.2em; color:rgba(255,204,0,3); padding:2em 0 0.6em 0; }
 
 #contenido{width:98%; margin:1% auto;}
 
 header{
-	width:98%;
+	width:100%;
 	top:30%;
 	position: absolute;
 	text-align:center;
@@ -62,7 +62,7 @@ video{
 	width:46%;
 	padding:2%;
 	float:left;
-	background-color:red;
+	background-color:;
 	}
 
 .dupla a{
@@ -79,7 +79,7 @@ video{
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
+	background-color:rgba(255,204,0,2);
 	background-image:url('../images/dupla-primera.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
@@ -96,7 +96,7 @@ video{
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-color:rgba(231,240,239,1);
+	background-color:rgba(0,0,0,0.5);
 	background-image:url('../images/dupla-segunda.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
@@ -143,8 +143,8 @@ video{
 }
 
 @keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
+	from {background-color:rgba(255,204,0,1);}
+	to {background-color:rgba(0,0,0,1);}
 }
 
 .item {
