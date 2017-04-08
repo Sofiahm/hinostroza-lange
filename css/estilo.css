@@ -93,6 +93,8 @@ video{
 
 .primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
 
+.primera a{padding: 2% 40% 2% 2%; color:white}
+
 .segunda{
 	min-height:300px;
 	text-align:right;
@@ -110,6 +112,8 @@ video{
 .segunda p{padding: 2% 2% 2% 40%;}
 
 .segunda address{padding: 2% 2% 2% 40%; font-size:0.9em; font-style:normal;}
+
+.segunda a{padding: 2% 2% 2% 40%; color:white}
 
 #somos hr{
 	clear:both;
